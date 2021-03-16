@@ -1,0 +1,29 @@
+@media screen and (max-width:992px) {
+    header .header .header-right a {
+        padding-top: 6px;
+    }
+    header .header .header-left {
+        display: none;
+    }
+    header .header .rc {
+        display: inline-flex;
+        font-size: 128%;
+        margin: 0 auto 0 0;
+    }
+    header .header .rc i {
+        margin-left: 18%;
+        cursor: pointer;
+    }
+    header nav .navbr {
+        display: none;
+    }
+    header nav .navbr .flex .menu ul {
+        display: none;
+    }
+    header nav a .rc {
+        display: block;
+        font-size: 181%;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+}
